@@ -56,3 +56,11 @@ grunt shell:less
 ```
 grunt shell:lesstheme
 ```
+
+## Pattern Library
+
+When compiled can be found on the following URL:
+
+```
+static/frontend/MyTheme/Default/en_GB/patternlib/mytheme/index.html
+```
