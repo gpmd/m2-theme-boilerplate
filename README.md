@@ -15,23 +15,49 @@ Also included are a couple of scripts to help automate some of the more common f
 Simply run the initial setup script and you will be prompted with a number of options. Then, each time you `git pull` or `git merge` you will be automatically presented with the same prompts. You can also trigger the build script manually.
 
 **Intial setup:**
-
 ```
 chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
 
 **Manually run the build script:**
-
 ```
 ./tools/dev/build.sh
 ```
 
-## Grunt
+## Manual Grunt tasks
 
+**Run from:**
 ```
 cd app/design/frontend/MyTheme/Default
+```
+
+**Generate icons:**
+```
 grunt icons
+```
+
+**Generate pattern library:**
+```
 grunt patternlib
+```
+
+**Refresh all themes:**
+```
 grunt shell:refresh
+```
+
+**Refresh all themes:**
+```
+grunt shell:refresh
+```
+
+**Recompile all themes less:**
+```
+grunt shell:less
+```
+
+**Recompile only the current theme&#8217;s less:**
+```
+grunt shell:lesstheme
 ```
