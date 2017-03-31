@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook--s.colors-black-white-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Style-Tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Tile" transform="translate(-477.000000, -1377.000000)" fill="#000000">
+            <g id="Icons" transform="translate(100.000000, 660.000000)">
+                <g id="Iconset" transform="translate(0.000000, 30.000000)">
+                    <g id="Icons" transform="translate(61.000000, 67.000000)">
+                        <g id="Social" transform="translate(6.000000, 620.000000)">
+                            <g id="Icon/Social/Facebook/Black" transform="translate(310.000000, 0.000000)">
+                                <path d="M19.6875,0 L1.3125,0 C0.594726562,0 0,0.594726562 0,1.3125 L0,19.6875 C0,20.4052734 0.594726562,21 1.3125,21 L11.2280273,21 L11.2280273,12.8378906 L8.60302734,12.8378906 L8.60302734,9.81298828 L11.2280273,9.81298828 L11.2280273,7.19824219 C11.2280273,4.80908203 12.684082,3.20947266 15.5654297,3.20947266 C16.8369141,3.20947266 17.71875,3.35302734 17.71875,3.35302734 L17.71875,6.08056641 L15.75,6.08056641 C14.878418,6.08056641 14.4375,6.57275391 14.4375,7.43408203 L14.4375,9.81298828 L17.503418,9.81298828 L17.0625,12.8378906 L14.4375,12.8378906 L14.4375,21 L19.6875,21 C20.4052734,21 21,20.4052734 21,19.6875 L21,1.3125 C21,0.594726562 20.4052734,0 19.6875,0 L19.6875,0 Z" id="Icon/Facebook/Black"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

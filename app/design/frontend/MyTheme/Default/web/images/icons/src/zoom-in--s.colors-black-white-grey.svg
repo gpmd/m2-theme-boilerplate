@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>zoom-in--sml.colors-black-white-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Style-Tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Tile" transform="translate(-942.000000, -1222.000000)" fill="#000000">
+            <g id="Icons" transform="translate(100.000000, 660.000000)">
+                <g id="Iconset" transform="translate(0.000000, 30.000000)">
+                    <g id="Icons" transform="translate(61.000000, 67.000000)">
+                        <g id="Misc" transform="translate(6.000000, 465.000000)">
+                            <g id="Icon/Zoom-In/Black" transform="translate(775.000000, 0.000000)">
+                                <g>
+                                    <path d="M21,19.9008816 L14.9431737,13.8432213 C16.16071,12.378842 16.8937336,10.4991661 16.8937336,8.44686681 C16.8937336,3.78103407 13.1118656,0 8.44686681,0 C3.781868,0 0,3.781868 0,8.44686681 C0,13.1118656 3.78270193,16.8937336 8.44686681,16.8937336 C10.5,16.8937336 12.379676,16.16071 13.8432213,14.9431737 L19.9000477,21.0008339 L21,19.9008816 L21,19.9008816 Z M0.888968311,8.44686681 C0.888968311,4.27972361 4.27888968,0.888968311 8.44686681,0.888968311 C12.61401,0.888968311 16.0047653,4.27972361 16.0047653,8.44686681 C16.0047653,12.61401 12.61401,16.0047653 8.44686681,16.0047653 C4.27888968,16.0047653 0.888968311,12.61401 0.888968311,8.44686681 L0.888968311,8.44686681 Z" id="Search"></path>
+                                    <g id="Plus---Small" transform="translate(4.000000, 4.000000)">
+                                        <rect id="Rectangle-2" x="0" y="4" width="9" height="1"></rect>
+                                        <rect id="Rectangle-3" x="4" y="0" width="1" height="9"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

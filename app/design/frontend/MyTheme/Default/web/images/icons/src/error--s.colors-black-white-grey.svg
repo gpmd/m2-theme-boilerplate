@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>error--s.colors-black-white-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Style-Tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Tile" transform="translate(-478.000000, -1533.000000)" fill="#000000">
+            <g id="Icons" transform="translate(100.000000, 660.000000)">
+                <g id="Iconset" transform="translate(0.000000, 30.000000)">
+                    <g id="Icons" transform="translate(61.000000, 67.000000)">
+                        <g id="Notifications" transform="translate(7.000000, 775.000000)">
+                            <g id="Icon/Notification/Error/Black" transform="translate(309.000000, 0.000000)">
+                                <g id="Icon/Error/Black" transform="translate(1.000000, 1.000000)">
+                                    <path d="M9.05392979,2.1282084 L1.23492459,17.7662188 C0.828929244,18.5782095 1.0908888,19 2.00878799,19 L16.991212,19 C17.9120121,19 18.172517,18.581102 17.7650754,17.7662188 L9.94607021,2.1282084 C9.57533695,1.38674188 9.4247436,1.38658078 9.05392979,2.1282084 Z M8.1595026,1.68099481 C8.89983887,0.200322261 10.1022384,0.204476742 10.8404974,1.68099481 L18.6595026,17.3190052 C19.3998389,18.7996777 18.6544098,20 16.991212,20 L2.00878799,20 C0.347080268,20 -0.397761629,18.7955233 0.340497403,17.3190052 L8.1595026,1.68099481 Z" id="Triangle"></path>
+                                    <g id="i" transform="translate(9.500000, 12.500000) scale(1, -1) translate(-9.500000, -12.500000) translate(8.000000, 7.000000)">
+                                        <rect id="Rectangle-5" x="0" y="4" width="3" height="7"></rect>
+                                        <circle id="Oval-2" cx="1.5" cy="1.5" r="1.5"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

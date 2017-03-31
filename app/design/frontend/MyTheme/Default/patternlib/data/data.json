@@ -1,0 +1,407 @@
+{
+  "styleguide-sections": [
+    {
+      "key": "logo",
+      "title": "Logo"
+    },
+    {
+      "key": "colours",
+      "title": "Colour Palette"
+    }, {
+      "key": "typography",
+      "title": "Typography"
+    }, {
+      "key": "headings",
+      "title": "Headings"
+    }, {
+      "key": "blockelements",
+      "title": "Block Elements"
+    }, {
+      "key": "csscolumns",
+      "title": "CSS Columns"
+    }, {
+      "key": "textelements",
+      "title": "Text Elements"
+    }, {
+      "key": "lists",
+      "title": "Lists"
+    }, {
+      "key": "tables",
+      "title": "Tables"
+    }, {
+      "key": "forms",
+      "title": "Forms"
+    }, {
+      "key": "buttons",
+      "title": "Buttons"
+    }, {
+      "key": "boxmodel",
+      "title": "Padding & Margins"
+    }, {
+      "key": "icons",
+      "title": "Icons"
+    }, {
+      "key": "notifications",
+      "title": "Notifications"
+    }, {
+      "key": "images",
+      "title": "Images"
+    }, {
+      "key": "ratio-embed",
+      "title": "Ratio Embed"
+    }, {
+      "key": "vertical-align",
+      "title": "Vertical Align"
+    }, {
+      "key": "containers-and-sections",
+      "title": "Containers & Sections"
+    }, {
+      "key": "grid",
+      "title": "Grid"
+    }
+  ],
+  "ratios": [
+    {
+      "horz": "3",
+      "vert": "1"
+    }, {
+      "horz": "2",
+      "vert": "1"
+    }, {
+      "horz": "16",
+      "vert": "9"
+    }, {
+      "horz": "3",
+      "vert": "2"
+    }
+  ],
+  "colours": {
+    "brand": [
+      "paris-white",
+      "tahuna-sands",
+      "navajo-white",
+      "sweet-pink",
+      "rose-fog",
+      "botticelli",
+      "patina",
+      "pine-glade",
+      "rob-roy",
+      "matrix",
+      "au-chico",
+      "regent-grey",
+      "shamrock",
+      "confetti",
+      "sunglow",
+      "radical-red",
+      "cerise-red",
+      "cornflower-blue"
+    ],
+    "greys": [
+      "black",
+      "darkest-grey",
+      "dark-grey",
+      "medium-grey",
+      "light-grey",
+      "white-smoke"
+    ]
+  },
+  "grid-row-1": [
+    {
+      "mobile-columns": "2",
+      "desktop-columns": "6"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "6"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "6"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "6"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "6"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "6"
+    }
+  ],
+  "grid-row-2": [
+    {
+      "mobile-columns": "2",
+      "desktop-columns": "4"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "4"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "4"
+    }, {
+      "mobile-columns": "2",
+      "desktop-columns": "4"
+    }
+  ],
+  "grid-row-3": [
+    {
+      "mobile-columns": "1",
+      "desktop-columns": "3"
+    }, {
+      "mobile-columns": "1",
+      "desktop-columns": "3"
+    }, {
+      "mobile-columns": "1",
+      "desktop-columns": "3"
+    }
+  ],
+  "grid-row-4": [
+    {
+      "mobile-columns": "1",
+      "desktop-columns": "2"
+    }, {
+      "mobile-columns": "1",
+      "desktop-columns": "2"
+    }
+  ],
+  "grid-row-5": [
+    {
+      "mobile-columns": "1",
+      "desktop-columns": "1"
+    }
+  ],
+  "icons": {
+    "all": [
+      {
+        "name": "burger--s",
+        "color": "black"
+      },
+      {
+        "name": "search--s",
+        "color": "black"
+      },
+      {
+        "name": "user--s",
+        "color": "black"
+      },
+      {
+        "name": "user--s",
+        "color": "black"
+      },
+      {
+        "name": "globe--s",
+        "color": "black"
+      },
+      {
+        "name": "bag--s",
+        "color": "black"
+      },
+      {
+        "name": "plus--s",
+        "color": "black"
+      },
+      {
+        "name": "plus--l",
+        "color": "black"
+      },
+      {
+        "name": "minus--s",
+        "color": "black"
+      },
+      {
+        "name": "minus--l",
+        "color": "black"
+      },
+      {
+        "name": "tick--s",
+        "color": "black"
+      },
+      {
+        "name": "tick--l",
+        "color": "black"
+      },
+      {
+        "name": "cross--s",
+        "color": "black"
+      },
+      {
+        "name": "cross--l",
+        "color": "black"
+      },
+      {
+        "name": "arrow-up--s",
+        "color": "black"
+      },
+      {
+        "name": "arrow-right--s",
+        "color": "black"
+      },
+      {
+        "name": "arrow-down--s",
+        "color": "black"
+      },
+      {
+        "name": "arrow-left--s",
+        "color": "black"
+      },
+      {
+        "name": "arrow-up--l",
+        "color": "black"
+      },
+      {
+        "name": "arrow-right--l",
+        "color": "black"
+      },
+      {
+        "name": "arrow-down--l",
+        "color": "black"
+      },
+      {
+        "name": "arrow-left--l",
+        "color": "black"
+      },
+      {
+        "name": "refresh--s",
+        "color": "black"
+      },
+      {
+        "name": "pencil--s",
+        "color": "black"
+      },
+      {
+        "name": "heart--s",
+        "color": "black"
+      },
+      {
+        "name": "share--s",
+        "color": "black"
+      },
+      {
+        "name": "star--s",
+        "color": "black"
+      },
+      {
+        "name": "zoom-in--s",
+        "color": "black"
+      },
+      {
+        "name": "bin--s",
+        "color": "black"
+      },
+      {
+        "name": "lock-closed--s",
+        "color": "black"
+      },
+      {
+        "name": "instagram--s",
+        "color": "black"
+      },
+      {
+        "name": "twitter--s",
+        "color": "black"
+      },
+      {
+        "name": "facebook--s",
+        "color": "black"
+      },
+      {
+        "name": "email--s",
+        "color": "black"
+      },
+      {
+        "name": "youtube--s",
+        "color": "black"
+      },
+      {
+        "name": "pinterest--s",
+        "color": "black"
+      },
+      {
+        "name": "success--s",
+        "color": "black"
+      },
+      {
+        "name": "info--s",
+        "color": "black"
+      },
+      {
+        "name": "error--s",
+        "color": "black"
+      },
+      {
+        "name": "help--s",
+        "color": "black"
+      },
+      {
+        "name": "iphone",
+        "color": "black"
+      },
+      {
+        "name": "ipad",
+        "color": "black"
+      },
+      {
+        "name": "android",
+        "color": "black"
+      },
+      {
+        "name": "apple-watch",
+        "color": "black"
+      },
+      {
+        "name": "htc",
+        "color": "black"
+      },
+      {
+        "name": "nexus",
+        "color": "black"
+      },
+      {
+        "name": "lumia",
+        "color": "black"
+      },
+      {
+        "name": "visa--s",
+        "color": "black"
+      },
+      {
+        "name": "mastercard--s",
+        "color": "black"
+      },
+      {
+        "name": "maestro--s",
+        "color": "black"
+      },
+      {
+        "name": "amex--s",
+        "color": "black"
+      },
+      {
+        "name": "paypal--s",
+        "color": "black"
+      }
+    ],
+    "size-variants": [
+      {
+        "name": "plus--s",
+        "color": "black"
+      }, {
+        "name": "plus--l",
+        "color": "black"
+      }, {
+        "name": "tick--s",
+        "color": "black"
+      }, {
+        "name": "tick--l",
+        "color": "black"
+      }
+    ],
+    "color-variants": [
+      {
+        "name": "burger--s",
+        "color": "black"
+      }, {
+        "name": "burger--s",
+        "color": "white"
+      }
+    ]
+  }
+}

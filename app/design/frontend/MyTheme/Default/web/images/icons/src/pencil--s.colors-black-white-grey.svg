@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>pencil--s.colors-black-white-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1" y="3" width="3" height="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="3" height="1" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="01-Style-Tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Tile" transform="translate(-324.000000, -1222.000000)">
+            <g id="Icons" transform="translate(100.000000, 660.000000)">
+                <g id="Iconset" transform="translate(0.000000, 30.000000)">
+                    <g id="Icons" transform="translate(61.000000, 67.000000)">
+                        <g id="Misc" transform="translate(6.000000, 465.000000)">
+                            <g id="Icon/Pencil/Black" transform="translate(155.000000, 0.000000)">
+                                <g transform="translate(10.500000, 10.500000) rotate(45.000000) translate(-10.500000, -10.500000) translate(8.000000, -1.000000)">
+                                    <path d="M4,19.6379501 L4,1 L1,1 L1,19.6379501 L2.5,21.4379501 L4,19.6379501 Z M1.04805054e-13,1.04805054e-13 L5,1.04805054e-13 L5,20 L2.5,23 L1.04805054e-13,20 L1.04805054e-13,1.04805054e-13 Z" id="Path-3" fill="#000000"></path>
+                                    <use id="Rectangle-7" stroke="#000000" mask="url(#mask-2)" stroke-width="2" fill="#D8D8D8" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,214 @@
+<div class="container u-max-width--l">
+    <section class="section section--{{section.key}}">
+        <h2>{{section.title}}</h2>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <h3>Default Magento Icons</h3>
+
+        <ul class="icons-image-list">
+            <li>
+                <span class="icon-search"><span><code>icon-search</code></span></span>
+            </li>
+            <li>
+                <span class="icon-cart"><span><code>icon-cart</code></span></span>
+            </li>
+            <li>
+                <span class="icon-arrow-down"><span><code>icon-arrow-down</code></span></span>
+            </li>
+            <li>
+                <span class="icon-arrow-up"><span><code>icon-arrow-up</code></span></span>
+            </li>
+            <li>
+                <span class="icon-grid"><span><code>icon-grid</code></span></span>
+            </li>
+            <li>
+                <span class="icon-list"><span><code>icon-list</code></span></span>
+            </li>
+            <li>
+                <span class="icon-remove"><span><code>icon-remove</code></span></span>
+            </li>
+            <li>
+                <span class="icon-star"><span><code>icon-star</code></span></span>
+            </li>
+            <li>
+                <span class="icon-pointer-down"><span><code>icon-pointer-down</code></span></span>
+            </li>
+            <li>
+                <span class="icon-pointer-up"><span><code>icon-pointer-up</code></span></span>
+            </li>
+            <li>
+                <span class="icon-pointer-left"><span><code>icon-pointer-left</code></span></span>
+            </li>
+            <li>
+                <span class="icon-pointer-right"><span><code>icon-pointer-right</code></span></span>
+            </li>
+            <li>
+                <span class="icon-compare-empty"><span><code>icon-compare-empty</code></span></span>
+            </li>
+            <li>
+                <span class="icon-compare-full"><span><code>icon-compare-full</code></span></span>
+            </li>
+            <li>
+                <span class="icon-wishlist-empty"><span><code>icon-wishlist-empty</code></span></span>
+            </li>
+            <li>
+                <span class="icon-wishlist-full"><span><code>icon-wishlist-full</code></span></span>
+            </li>
+            <li>
+                <span class="icon-update"><span><code>icon-update</code></span></span>
+            </li>
+            <li>
+                <span class="icon-collapse"><span><code>icon-collapse</code></span></span>
+            </li>
+            <li>
+                <span class="icon-expand"><span><code>icon-expand</code></span></span>
+            </li>
+            <li>
+                <span class="icon-menu"><span><code>icon-menu</code></span></span>
+            </li>
+            <li>
+                <span class="icon-prev"><span><code>icon-prev</code></span></span>
+            </li>
+            <li>
+                <span class="icon-next"><span><code>icon-next</code></span></span>
+            </li>
+            <li>
+                <span class="icon-settings"><span><code>icon-settings</code></span></span>
+            </li>
+            <li>
+                <span class="icon-info"><span><code>icon-info</code></span></span>
+            </li>
+            <li>
+                <span class="icon-checkmark"><span><code>icon-checkmark</code></span></span>
+            </li>
+            <li>
+                <span class="icon-calendar"><span><code>icon-calendar</code></span></span>
+            </li>
+            <li>
+                <span class="icon-comment"><span><code>icon-comment</code></span></span>
+            </li>
+            <li>
+                <span class="icon-comment-reflected"><span><code>icon-comment-reflected</code></span></span>
+            </li>
+            <li>
+                <span class="icon-envelope"><span><code>icon-envelope</code></span></span>
+            </li>
+            <li>
+                <span class="icon-warning"><span><code>icon-warning</code></span></span>
+            </li>
+            <li>
+                <span class="icon-trash"><span><code>icon-trash</code></span></span>
+            </li>
+            <li>
+                <span class="icon-flag"><span><code>icon-flag</code></span></span>
+            </li>
+            <li>
+                <span class="icon-location"><span><code>icon-location</code></span></span>
+            </li>
+            <li>
+                <span class="icon-up"><span><code>icon-up</code></span></span>
+            </li>
+            <li>
+                <span class="icon-down"><span><code>icon-down</code></span></span>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <h3>MyTheme Iconset</h3>
+
+        <p>Example usage:</p>
+
+        <pre><code class="language-html">&#x3C;div class=&#x22;i-burger--s-black&#x22; data-grunticon-embed&#x3E;&#x3C;/div&#x3E;</code></pre>
+
+        <div class="o-grid o-grid--has-gutter">
+            <!--(bake icon.html _foreach="icon:icons.all")-->
+        </div>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <h3>Colour Variants</h3>
+
+        <p>Icons are available in four colours, black (actually dark grey in this case), grey, white and patina (green). Colours are denoted by adding a keyword to the end of the CSS class name, e.g. <code>-black</code>:</p>
+
+        <pre><code class="language-html">&#x3C;div class=&#x22;i-burger--s-black&#x22; data-grunticon-embed&#x3E;&#x3C;/div&#x3E;</code></pre>
+
+        <div class="o-grid o-grid--has-gutter">
+            <!--(bake icon.html _foreach="icon:icons.color-variants")-->
+        </div>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <h3>Size Variants</h3>
+
+        <p>Some icons are available in two sizes, large and small. Sizes are denoted by adding a size modifier after the icon identifier in the CSS class name, e.g. <code>--l</code>:</p>
+
+        <pre><code class="language-html">&#x3C;div class=&#x22;i-burger--l-black&#x22; data-grunticon-embed&#x3E;&#x3C;/div&#x3E;</code></pre>
+
+        <div class="o-grid o-grid--has-gutter">
+            <!--(bake icon.html _foreach="icon:icons.size-variants")-->
+        </div>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <h3>States</h3>
+
+        <p>Icons can have a hover state by adding the class <code>i--has-hover</code> (currently sets the opacity to 50%).</p>
+
+        <div class="o-grid o-grid--has-gutter">
+            <div class="o-grid__cell o-unit-1of2 o-unit-1of4--s o-unit-1of6--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--1by1"></div>
+                    <div class="o-ratio-embed__content u-text-align--center u-bg-color--light-grey">
+                        <div class="o-valign">
+                            <div class="o-valign__content--middle">
+                                <div class="i-burger--s-black i--has-hover" data-grunticon-embed></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="u-margin-top--xs u-margin-btm--none"><code>i-burger--s-black i--has-hover</code></p>
+            </div>
+            <div class="o-grid__cell o-unit-1of2 o-unit-1of4--s o-unit-1of6--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--1by1"></div>
+                    <div class="o-ratio-embed__content u-text-align--center u-bg-color--light-grey">
+                        <div class="o-valign">
+                            <div class="o-valign__content--middle">
+                                <div class="i-search--s-black i--has-hover" data-grunticon-embed></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="u-margin-top--xs u-margin-btm--none"><code>i-search--s-black i--has-hover</code></p>
+            </div>
+            <div class="o-grid__cell o-unit-1of2 o-unit-1of4--s o-unit-1of6--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--1by1"></div>
+                    <div class="o-ratio-embed__content u-text-align--center u-bg-color--light-grey">
+                        <div class="o-valign">
+                            <div class="o-valign__content--middle">
+                                <div class="i-user--s-black i--has-hover" data-grunticon-embed></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="u-margin-top--xs u-margin-btm--none"><code>i-user--s-black i--has-hover</code></p>
+            </div>
+            <div class="o-grid__cell o-unit-1of2 o-unit-1of4--s o-unit-1of6--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--1by1"></div>
+                    <div class="o-ratio-embed__content u-text-align--center u-bg-color--light-grey">
+                        <div class="o-valign">
+                            <div class="o-valign__content--middle">
+                                <div class="i-bag--s-black i--has-hover" data-grunticon-embed></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="u-margin-top--xs u-margin-btm--none"><code>i-bag--s-black i--has-hover</code></p>
+            </div>
+        </div>
+    </section>
+</div>

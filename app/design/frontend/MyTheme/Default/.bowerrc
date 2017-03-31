@@ -1,0 +1,6 @@
+{
+  "directory": "web/bower_components",
+  "scripts": {
+    "postinstall": "./.bowerpostinstall"
+  }
+}

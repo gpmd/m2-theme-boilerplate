@@ -1,0 +1,30 @@
+<div class="container u-max-width--l">
+    <section class="section section--{{section.key}}">
+        <h2>{{section.title}}</h2>
+
+        <h3>Example Markup:</h3>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-grid o-grid--has-gutter&#x22;&#x3E;&#10;&#32;&#32;&#32;&#32;&#x3C;div class=&#x22;o-grid__cell o-unit-1of2 o-unit-1of4--m&#x22;&#x3E;&#x3C;/div&#x3E;&#10;&#x3C;/div&#x3E;</code></pre>
+
+        <h3>Responsive Units</h3>
+        <p>Firstly set a base row unit count for each cell, e.g. <code>o-unit-1of2</code>. This means there will be 2 cells in a row, so each cell will span 50% of its container.</p>
+        <p>Then set row unit counts for each breakpoint that you require, e.g. <code>o-unit-1of4--m</code>. This means there will be 4 cells in a row at the <code>m</code> breakpoint (768px), so each cell will span 25% of its container</p>
+        <p>Available unit counts are <code>1</code> to <code>1 2</code>.</p>
+
+        <h3>Utilities</h3>
+
+        <p>A number of utilities are available:</p>
+        <pre class="u-margin-btm--xxs"><code class="language-css">o-grid--has-gutter</code></pre>
+        <pre class="u-margin-btm--xxs"><code class="language-css">o-grid--&#x3C;left/center/right&#x3E</code></pre>
+        <pre><code class="language-css">o-grid--valign-&#x3C;top/middle/bottom&#x3E</code></pre>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <div class="o-grid o-grid--has-gutter">
+            <!--(bake gridcell.html _foreach="cell:grid-row-1")-->
+            <!--(bake gridcell.html _foreach="cell:grid-row-2")-->
+            <!--(bake gridcell.html _foreach="cell:grid-row-3")-->
+            <!--(bake gridcell.html _foreach="cell:grid-row-4")-->
+            <!--(bake gridcell.html _foreach="cell:grid-row-5")-->
+        </div>
+    </section>
+</div>

@@ -1,0 +1,5 @@
+# Disable directory listing
+Options -Indexes
+
+# Set index file
+DirectoryIndex index.html index.htm

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="64px" viewBox="0 0 43 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ipad.colors-black-white-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Style-Tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Tile" transform="translate(-311.000000, -1666.000000)" fill="#000000">
+            <g id="Icons" transform="translate(100.000000, 660.000000)">
+                <g id="Iconset" transform="translate(0.000000, 30.000000)">
+                    <g id="Icons" transform="translate(61.000000, 67.000000)">
+                        <g id="Devices" transform="translate(7.000000, 909.000000)">
+                            <g id="Icon/Device/iPad/Black" transform="translate(143.000000, 0.000000)">
+                                <path d="M1.9744898,58.262069 L41.0255102,58.262069 L41.0255102,6.17931034 L1.9744898,6.17931034 L1.9744898,58.262069 Z M21.5274235,62.9331862 C20.557949,62.9331862 19.7723214,62.1428966 19.7723214,61.167669 C19.7723214,60.1926621 20.557949,59.4021517 21.5274235,59.4021517 C22.4966786,59.4021517 23.2825255,60.1926621 23.2825255,61.167669 C23.2825255,62.1428966 22.4966786,62.9331862 21.5274235,62.9331862 L21.5274235,62.9331862 Z M43,3.14482759 C43,1.408 41.6003061,0 39.8737245,0 L3.12627551,0 C1.39969388,0 0,1.408 0,3.14482759 L0,60.8551724 C0,62.592 1.39969388,64 3.12627551,64 L39.8737245,64 C41.6003061,64 43,62.592 43,60.8551724 L43,3.14482759 Z" id="Icon/iPad/Black"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

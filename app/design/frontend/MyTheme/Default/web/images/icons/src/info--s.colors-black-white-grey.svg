@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>info--s.colors-black-white-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01-Style-Tile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Tile" transform="translate(-322.000000, -1532.000000)" fill="#000000">
+            <g id="Icons" transform="translate(100.000000, 660.000000)">
+                <g id="Iconset" transform="translate(0.000000, 30.000000)">
+                    <g id="Icons" transform="translate(61.000000, 67.000000)">
+                        <g id="Notifications" transform="translate(7.000000, 775.000000)">
+                            <g id="Icon/Notification/Info/Black" transform="translate(154.000000, 0.000000)">
+                                <g id="Icon/Info/Black">
+                                    <path d="M10.5,20 C15.7467051,20 20,15.7467051 20,10.5 C20,5.25329488 15.7467051,1 10.5,1 C5.25329488,1 1,5.25329488 1,10.5 C1,15.7467051 5.25329488,20 10.5,20 Z M10.5,21 C4.70101013,21 0,16.2989899 0,10.5 C0,4.70101013 4.70101013,0 10.5,0 C16.2989899,0 21,4.70101013 21,10.5 C21,16.2989899 16.2989899,21 10.5,21 Z" id="Oval"></path>
+                                    <g id="i" transform="translate(9.000000, 5.000000)">
+                                        <rect id="Rectangle-5" x="0" y="4" width="3" height="7"></rect>
+                                        <circle id="Oval-2" cx="1.5" cy="1.5" r="1.5"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

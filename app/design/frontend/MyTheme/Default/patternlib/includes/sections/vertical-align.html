@@ -1,0 +1,52 @@
+<div class="container u-max-width--l">
+    <section class="section section--{{section.key}}">
+        <h2>{{section.title}}</h2>
+
+        <p>Uses <code>inline-block</code> and a psuedo element to vertically align content within an element.</p>
+
+        <h3>Example markup:</h3>
+
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-valign&#x22;&#x3E;&#10;&#32;&#32;&#32;&#32;&#x3C;div class=&#x22;o-valign__content--middle&#x22;&#x3E;&#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#x3C;!-- Content --&#x3E;&#10;&#32;&#32;&#32;&#32;&#x3C;/div&#x3E;&#10;&#x3C;/div&#x3E;</code></pre>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <div class="o-grid o-grid--has-gutter">
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of3--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--3by1"></div>
+                    <div class="o-ratio-embed__content">
+                        <div class="o-valign u-bg-color--light-grey">
+                            <div class="o-valign__content--top">
+                                <p class="u-text-align--center u-margin-btm--none">Top</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of3--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--3by1"></div>
+                    <div class="o-ratio-embed__content">
+                        <div class="o-valign u-bg-color--light-grey">
+                            <div class="o-valign__content--middle">
+                                <p class="u-text-align--center u-margin-btm--none">Middle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of3--m">
+                <div class="o-ratio-embed">
+                    <div class="o-ratio-embed__ratio o-ratio-embed--3by1"></div>
+                    <div class="o-ratio-embed__content">
+                        <div class="o-valign u-bg-color--light-grey">
+                            <div class="o-valign__content--bottom">
+                                <p class="u-text-align--center u-margin-btm--none">Bottom</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
