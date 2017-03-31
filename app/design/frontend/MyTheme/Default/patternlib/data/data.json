@@ -81,12 +81,16 @@
       "white"
     ],
     "greys": [
-      "black",
       "darkest-grey",
       "dark-grey",
       "medium-grey",
-      "light-grey",
-      "white"
+      "light-grey"
+    ],
+    "highlights": [
+      "success",
+      "error",
+      "info",
+      "warning"
     ]
   },
   "grid-row-1": [
