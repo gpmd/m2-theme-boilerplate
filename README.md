@@ -1,7 +1,5 @@
 # Magento 2 Theme Boilerplate
 
-> This boilerplate theme is designed to be the starting point for a child theme of our M2base theme.
-
 **Please Note:** This is set up to work with our M2base parent theme, but you could easily modify it to use another theme as a parent.
 
 ## Usage
