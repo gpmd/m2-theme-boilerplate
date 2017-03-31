@@ -47,11 +47,6 @@ grunt patternlib
 grunt shell:refresh
 ```
 
-**Refresh all themes:**
-```
-grunt shell:refresh
-```
-
 **Recompile all themes less:**
 ```
 grunt shell:less
