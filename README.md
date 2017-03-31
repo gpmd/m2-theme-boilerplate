@@ -14,14 +14,14 @@ Also included are a couple of scripts to help automate some of the more common f
 
 Simply run the initial setup script and you will be prompted with a number of options. Then, each time you `git pull` or `git merge` you will be automatically presented with the same prompts. You can also trigger the build script manually.
 
-Intial setup:
+**Intial setup:**
 
 ```
 chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
 
-Manually run the build script:
+**Manually run the build script:**
 
 ```
 ./tools/dev/build.sh
