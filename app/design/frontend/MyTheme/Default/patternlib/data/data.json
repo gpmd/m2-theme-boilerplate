@@ -77,24 +77,8 @@
   ],
   "colours": {
     "brand": [
-      "paris-white",
-      "tahuna-sands",
-      "navajo-white",
-      "sweet-pink",
-      "rose-fog",
-      "botticelli",
-      "patina",
-      "pine-glade",
-      "rob-roy",
-      "matrix",
-      "au-chico",
-      "regent-grey",
-      "shamrock",
-      "confetti",
-      "sunglow",
-      "radical-red",
-      "cerise-red",
-      "cornflower-blue"
+      "black",
+      "white"
     ],
     "greys": [
       "black",
