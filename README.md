@@ -26,3 +26,12 @@ chmod +x dev-setup.sh
 ```
 ./tools/dev/build.sh
 ```
+
+## Grunt
+
+```
+cd app/design/frontend/MyTheme/Default
+grunt icons
+grunt patternlib
+grunt shell:refresh
+```
