@@ -1,0 +1,16 @@
+#/usr/bin/env bash
+
+# Allow keyboard input
+exec < /dev/tty
+
+# Check for changed files
+changed_files="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
+check_run() {
+    echo "$changed_files" | grep --quiet "$1" && eval "$2"
+}
+
+tools/dev/build.sh
+
+exec <&-
+
+echo "--- Finished"
