@@ -1,6 +1,6 @@
 # Magento 2 Theme Boilerplate
 
-**Please Note:** This is set up to work with our M2base parent theme, but you could easily modify it to use another theme as a parent.
+**Please Note:** This is set up to work with our M2base theme as a parent, so probably isn&#8217;t much use to anyone else.
 
 ## Usage
 
