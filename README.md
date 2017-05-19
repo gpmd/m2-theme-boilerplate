@@ -10,7 +10,7 @@
 
 ## themes.js
 
-To mitigate Magento overwriting the Grunt `themes.js` config file each time the core files are updated, add the following `scripts` node to your project&#8217;s `composer.json`. This will copy your own `themes.js` file into place each time you run `composer install` or `composer update`:
+To mitigate Magento overwriting the default Grunt `themes.js` config file each time the core files are updated, add the following `scripts` node to your project&#8217;s `composer.json`. This will copy your own `themes.js` file into place each time you run `composer install` or `composer update`:
 
 ```
 "scripts": {
