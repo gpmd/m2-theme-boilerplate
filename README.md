@@ -8,6 +8,21 @@
 2. Change all occurrences in the folders names and files of `MyTheme` and `mytheme` to the name of your new theme
 3. Add a new theme config block to your site&#8217;s `themes.js` (you can use `tools/dev/themes.js.sample` as a reference)
 
+## composer.json
+
+Add a `scripts` node with the following:
+
+```
+"scripts": {
+    "post-install-cmd": [
+        "cp tools/dev/themes.js dev/tools/grunt/configs/themes.js"
+    ],
+    "post-update-cmd": [
+        "cp tools/dev/themes.js dev/tools/grunt/configs/themes.js"
+    ]
+}
+```
+
 ## Dev build tools
 
 Also included are a couple of scripts to help automate some of the more common front end development tasks.
