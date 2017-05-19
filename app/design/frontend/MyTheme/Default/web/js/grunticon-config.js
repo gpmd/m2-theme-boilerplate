@@ -1,4 +1,4 @@
-/* global document, grunticon */
+/* global grunticon */
 
 var themePath = '/static/frontend/MyTheme/Default/en_GB/';
 var iconsDataPath = 'images/icons/dist/';
