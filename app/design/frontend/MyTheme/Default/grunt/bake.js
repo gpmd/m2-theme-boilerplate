@@ -1,4 +1,6 @@
-module.exports = function (grunt, data) {
+/* global module */
+
+module.exports = function(grunt, data) {
   return {
     patternlib: {
       options: {
@@ -16,8 +18,8 @@ module.exports = function (grunt, data) {
           },
           deHyphenate: function(str) {
             return String(str).replace(/-/g, ' ');
-          }
-        }
+          },
+        },
       },
       files: [
         {
@@ -25,11 +27,11 @@ module.exports = function (grunt, data) {
           cwd: 'patternlib/',
           src: ['*.html'],
           dest: '<%= pubDir %>',
-          ext: '.html'
+          ext: '.html',
         }, {
-          '<%= pubDir %>/.htaccess': 'patternlib/.htaccess'
-        }
-      ]
-    }
+          '<%= pubDir %>/.htaccess': 'patternlib/.htaccess',
+        },
+      ],
+    },
   };
 };

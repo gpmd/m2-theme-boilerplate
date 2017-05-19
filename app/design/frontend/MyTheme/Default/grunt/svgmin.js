@@ -1,3 +1,5 @@
+/* global module */
+
 module.exports = {
   icons: {
     files: [
@@ -6,10 +8,10 @@ module.exports = {
         flatten: false,
         cwd: 'web/images/icons/src',
         src: [
-          '**/*.svg'
+          '**/*.svg',
         ],
-        dest: 'web/images/icons/minified'
-      }
-    ]
-  }
+        dest: 'web/images/icons/minified',
+      },
+    ],
+  },
 };

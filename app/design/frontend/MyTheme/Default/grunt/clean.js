@@ -1,14 +1,17 @@
+/* global module */
+
 module.exports = {
   options: {
-    force: true // Careful! Allows deleting of files outside of working directory
+    // Careful! Allows deleting of files outside of working directory
+    force: true,
   },
   patternlib: [
-    '<%= pubDir %>'
+    '<%= pubDir %>',
   ],
   iconsBefore: [
-    'web/images/icons/dist'
+    'web/images/icons/dist',
   ],
   iconsAfter: [
-    'web/images/icons/minified'
-  ]
+    'web/images/icons/minified',
+  ],
 };

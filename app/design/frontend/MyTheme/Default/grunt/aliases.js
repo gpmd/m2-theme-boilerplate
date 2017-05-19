@@ -1,3 +1,5 @@
+/* global module */
+
 module.exports = {
   default: [],
 
@@ -5,8 +7,8 @@ module.exports = {
     description: 'Pattern library',
     tasks: [
       'clean:patternlib',
-      'bake:patternlib'
-    ]
+      'bake:patternlib',
+    ],
   },
 
   icons: {
@@ -15,7 +17,7 @@ module.exports = {
       'clean:iconsBefore',
       'svgmin:icons',
       'grunticon:icons',
-      'clean:iconsAfter'
-    ]
-  }
+      'clean:iconsAfter',
+    ],
+  },
 };

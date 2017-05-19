@@ -1,3 +1,5 @@
+/* global module */
+
 module.exports = {
   icons: {
     files: [
@@ -6,10 +8,10 @@ module.exports = {
         cwd: 'web/images/icons/minified',
         src: [
           '*.svg',
-          '*.png'
+          '*.png',
         ],
-        dest: 'web/images/icons/dist'
-      }
+        dest: 'web/images/icons/dist',
+      },
     ],
     options: {
       cssprefix: '.icon__',
@@ -18,8 +20,8 @@ module.exports = {
       colors: {
         black: '#000',
         white: '#fff',
-        grey: '#ccc'
-      }
-    }
-  }
+        grey: '#ccc',
+      },
+    },
+  },
 };
