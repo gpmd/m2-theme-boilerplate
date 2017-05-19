@@ -21,7 +21,7 @@ if [[ $answer = y ]] ; then
 fi
 
 # Clear generated caches
-read -p "--- Clear generated caches? [y/N] " answer
+read -p "--- Clear var folder caches? [y/N] " answer
 if [[ $answer = y ]] ; then
     echo "--- Clearing generated caches..."
 
@@ -77,7 +77,7 @@ if [[ $answer = y ]] ; then
     (npm install && npm prune)
     cd ../../../
 
-    # Curtisward theme
+    # MyTheme theme
     cd app/design/frontend/MyTheme/Default
     (npm install && npm prune)
     cd ../../../../../
@@ -95,7 +95,7 @@ if [[ $answer = y ]] ; then
     (bower install && bower prune)
     cd ../../../
 
-    # Curtisward theme
+    # MyTheme theme
     cd app/design/frontend/MyTheme/Default
     (bower install && bower prune)
     cd ../../../../../

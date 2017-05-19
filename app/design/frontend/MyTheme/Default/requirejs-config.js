@@ -1,4 +1,4 @@
 var config = {
   map: {},
-  shim: {}
+  shim: {},
 };
