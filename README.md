@@ -8,9 +8,9 @@
 2. Change all occurrences in the folders names and files of `MyTheme` and `mytheme` to the name of your new theme
 3. Add a new theme config block to your site&#8217;s `themes.js` (you can use `tools/dev/themes.js.sample` as a reference)
 
-## composer.json
+## themes.js
 
-Add a `scripts` node with the following:
+To mitigate Magento overwriting the Grunt `themes.js` config file each time the core files are updated, add the following `scripts` node to your project&#8217;s `composer.json`. This will copy your own `themes.js` file into place each time you run `composer install` or `composer update`:
 
 ```
 "scripts": {
