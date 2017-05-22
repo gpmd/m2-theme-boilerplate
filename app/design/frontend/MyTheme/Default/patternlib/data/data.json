@@ -1,4 +1,6 @@
 {
+  "project": "My Theme",
+  "namespace": "MyTheme",
   "nav": [
     {
       "key": "index",
