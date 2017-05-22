@@ -1,0 +1,18 @@
+<div class="container u-max-width--l">
+    <section class="section section--{{section.key}}">
+        <h2>{{section.title}}</h2>
+    </section>
+
+    <section class="section">
+        <p>Gives an element an intrinsic ratio. Works well with the <code>o-img-cover object</code>. Available ratios are <code>2by3</code>, <code>1by1</code>, <code>2by1</code>, <code>3by1</code>, <code>16by9</code>, <code>3by2</code> and <code>4by3</code>.</p>
+
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-ratio-embed&#x22;&#x3E;&#10;&#32;&#32;&#32;&#32;&#x3C;div class=&#x22;o-ratio-embed__ratio o-ratio-embed--3by2&#x22;&#x3E;&#x3C;/div&#x3E;&#10;&#32;&#32;&#32;&#32;&#x3C;div class=&#x22;o-ratio-embed__content&#x22;&#x3E;&#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#x3C;!-- Content --&#x3E;&#10;&#32;&#32;&#32;&#32;&#x3C;/div&#x3E;&#10;&#x3C;/div&#x3E;</code></pre>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <div class="o-grid o-grid--valign-bottom o-grid--has-gutter">
+            <!--(bake ratio.html _foreach="ratio:ratios")-->
+        </div>
+    </section>
+</div>

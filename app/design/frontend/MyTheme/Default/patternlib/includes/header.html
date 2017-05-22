@@ -1,13 +1,22 @@
 <div class="pl-header container">
     <section class="section">
-        <div class="pl-header--left">
-            <h1 class="pl-heading h4 u-margin-top--none u-margin-btm--none"><strong>{{project}} {{title}}</strong></h1>
-        </div><!-- Leave this comment
-        --><div class="pl-header--right">
-            <select class="js-navigation" name="navigation">
-                <option value="#top">Choose a section...</option>
-                <!--(bake navigation-option.html _foreach="section:styleguide-sections")-->
-            </select>
+        <div class="pl-header__inner-wrapper">
+            <div class="pl-header--left">
+                <h1 class="pl-heading h4 u-margin-top--none u-margin-btm--none"><strong>{{project}} {{title}}</strong></h1>
+            </div>
+            <div class="pl-header--center">
+                <ul class="pl-main-nav">
+                    <!--(bake nav-item.html _foreach="item:nav")-->
+                </ul>
+            </div><!-- Leave this comment
+            --><div class="pl-header--right">
+                <select class="js-navigation" name="navigation">
+                    <option value="#top">Sub Sections...</option>
+                    <!--(bake subnav-item.html _foreach="section:globals-sections" _if="page == 'globals'")-->
+                    <!--(bake subnav-item.html _foreach="section:objects-sections" _if="page == 'objects'")-->
+                    <!--(bake subnav-item.html _foreach="section:components-sections" _if="page == 'components'")-->
+                </select>
+            </div>
         </div>
     </section>
 </div>

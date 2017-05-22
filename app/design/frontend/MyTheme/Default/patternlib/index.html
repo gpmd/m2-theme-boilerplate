@@ -2,9 +2,17 @@
 <html class="no-js" lang="en-GB">
 <!--(bake includes/head.html project="MyTheme")-->
 <body id="top" class="patternlib">
-<!--(bake includes/header.html project="MyTheme" title="Style Guide")-->
+<!--(bake includes/header.html project="MyTheme" title="Style Guide" page="globals")-->
 
-    <!--(bake includes/style-guide-section.html _foreach="section:styleguide-sections")-->
+<div class="container u-max-width--l">
+    <section class="section">
+        <h1>1. Globals</h1>
+
+        <p>Globally defined styles such as colors, typography (links, headings, font families), icons etc. Many globals also have an equivalent utility class, prefixed with a <code>u-</code>.</p>
+    </section>
+</div>
+
+<!--(bake includes/section.html _foreach="section:globals" dir="globals")-->
 
 <!--(bake includes/footer.html project="MyTheme")-->
 </body>

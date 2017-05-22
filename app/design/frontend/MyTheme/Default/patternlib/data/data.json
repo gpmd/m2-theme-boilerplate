@@ -1,5 +1,18 @@
 {
-  "styleguide-sections": [
+  "nav": [
+    {
+      "key": "index",
+      "title": "Globals"
+    },
+    {
+      "key": "objects",
+      "title": "Objects"
+    }, {
+      "key": "components",
+      "title": "Components"
+    }
+  ],
+  "globals": [
     {
       "key": "logo",
       "title": "Logo"
@@ -32,18 +45,15 @@
       "key": "forms",
       "title": "Forms"
     }, {
-      "key": "buttons",
-      "title": "Buttons"
-    }, {
       "key": "boxmodel",
       "title": "Padding & Margins"
     }, {
       "key": "icons",
       "title": "Icons"
-    }, {
-      "key": "notifications",
-      "title": "Notifications"
-    }, {
+    }
+  ],
+  "objects": [
+    {
       "key": "images",
       "title": "Images"
     }, {
@@ -58,6 +68,15 @@
     }, {
       "key": "grid",
       "title": "Grid"
+    }
+  ],
+  "components": [
+    {
+      "key": "buttons",
+      "title": "Buttons"
+    }, {
+      "key": "notifications",
+      "title": "Notifications"
     }
   ],
   "ratios": [
@@ -76,7 +95,7 @@
     }
   ],
   "colours": {
-    "brand": [
+    "primary": [
       "black",
       "white"
     ],
@@ -86,7 +105,7 @@
       "medium-grey",
       "light-grey"
     ],
-    "highlights": [
+    "secondary": [
       "success",
       "error",
       "info",
