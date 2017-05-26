@@ -67,15 +67,11 @@ You can either run the theme specific build script (above) and respond to `y/N` 
 
 ### Icons
 
-Icons are generated using a Grunt task and should be committed to the repo.
-
 ```
 grunt --gruntfile=Gruntfile.<theme>.js icons
 ```
 
 ### Pattern library
-
-The pattern library is generated using a Grunt task and should be committed to the repo.
 
 ```
 grunt --gruntfile=Gruntfile.<theme>.js patternlib
