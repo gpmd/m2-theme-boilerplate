@@ -21,6 +21,8 @@ If you have already run the `dev-setup.sh` script the build will be automaticall
 ./tools/dev/build.sh
 ```
 
+You can also run each step separately by using the shell scripts in `.tools/dev/scripts/`. 
+
 ## Grunt tasks
 
 ### Icons
