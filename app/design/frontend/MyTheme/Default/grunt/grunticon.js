@@ -1,17 +1,22 @@
 /* global module */
 
-module.exports = {
-  icons: {
+'use strict';
+
+var defaultGrunticon = require('../../../../../../dev/tools/grunt/configs/grunticon');
+var _ = require('underscore');
+
+var customGrunticon = {
+  themeIcons: {
     files: [
       {
         expand: true,
-        cwd: 'web/images/icons/minified',
+        cwd: '<%= path.themeDir %>/web/images/icons/minified',
         src: [
           '*.svg',
-          '*.png',
+          '*.png'
         ],
-        dest: 'web/images/icons/dist',
-      },
+        dest: '<%= path.themeDir %>/web/images/icons/dist'
+      }
     ],
     options: {
       cssprefix: '.icon__',
@@ -20,8 +25,10 @@ module.exports = {
       colors: {
         black: '#000',
         white: '#fff',
-        grey: '#ccc',
-      },
-    },
-  },
+        grey: '#ccc'
+      }
+    }
+  }
 };
+
+module.exports = _.extend(defaultGrunticon, customGrunticon);

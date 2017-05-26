@@ -1,17 +1,20 @@
 /* global module */
 
-module.exports = {
-  options: {
-    // Careful! Allows deleting of files outside of working directory
-    force: true,
-  },
-  patternlib: [
-    '<%= pubDir %>',
+'use strict';
+
+var defaultClean = require('../../../../../../dev/tools/grunt/configs/clean');
+var _ = require('underscore');
+
+var customClean = {
+  themePatternlib: [
+    '<%= path.patternlibPubDir %>'
   ],
-  iconsBefore: [
-    'web/images/icons/dist',
+  themeIconsBefore: [
+    '<%= path.themeDir %>/web/images/icons/dist'
   ],
-  iconsAfter: [
-    'web/images/icons/minified',
-  ],
+  themeIconsAfter: [
+    '<%= path.themeDir %>/web/images/icons/minified'
+  ]
 };
+
+module.exports = _.extend(defaultClean, customClean);

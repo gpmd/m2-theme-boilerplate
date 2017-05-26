@@ -4,13 +4,13 @@
 
 ## Usage
 
-1. Clone/download the repo and merge the files into your Magento 2 site, following the supplied directory structure
-2. Change all occurrences in the folders names and files of `MyTheme` and `mytheme` to the name of your new theme
-3. Add a new theme config block to your site&#8217;s `themes.js` (you can use `tools/dev/themes.js.sample` as a reference)
+1. Clone/download the repo and merge the files into your Magento 2 site, following the same directory structure
+2. Change all occurrences in the folders names and files of `MyTheme`, `myTheme` and `mytheme` to the name of your new theme (you could do a case sensitive find & replace)
+3. Add a new theme config block to `tools/dev/themes.js`
 
-## themes.js
+### themes.js
 
-To mitigate Magento overwriting the default Grunt `themes.js` config file each time the core files are updated, add the following `scripts` node to your project&#8217;s `composer.json`. This will copy your own `themes.js` file into place each time you run `composer install` or `composer update`:
+To mitigate Magento overwriting the default Grunt `themes.js` config file each time the core files are updated, add the following `scripts` node to your project&#8217;s `composer.json`. This will copy our own `themes.js` file into place each time you run `composer install` or `composer update`:
 
 ```
 "scripts": {
@@ -40,42 +40,54 @@ chmod +x dev-setup.sh
 ./tools/dev/build.sh
 ```
 
-## Manual Grunt tasks
+## Grunt tasks
 
-**Run from:**
-```
-cd app/design/frontend/MyTheme/Default
-```
-
-**Generate icons:**
-```
-grunt icons
-```
-
-**Generate pattern library:**
-```
-grunt patternlib
-```
-
-**Refresh all themes:**
-```
-grunt shell:refresh
-```
-
-**Recompile all themes less:**
-```
-grunt shell:less
-```
-
-**Recompile only the current theme&#8217;s less:**
-```
-grunt shell:lesstheme
-```
-
-## Pattern Library
-
-When compiled can be found on the following URL:
+### Icons
 
 ```
-static/frontend/MyTheme/Default/en_GB/patternlib/mytheme/index.html
+grunt --gruntfile=Gruntfile.mytheme.js icons
+```
+
+### Pattern library
+
+```
+grunt --gruntfile=Gruntfile.mytheme.js patternlib
+```
+
+The generated pattern library can be found at the following URL (assuming you have set `pub/` as your webroot):
+
+```
+static/frontend/GPMD/MyTheme/en_GB/patternlib/mytheme/index.html
+```
+
+### Default Magento Grunt tasks
+
+Refresh all the themes (cleans, generates symlinks and compiles styles):
+
+```
+grunt refresh
+```
+
+Clean styles:
+
+```
+grunt clean
+```
+
+Compile all styles:
+
+```
+grunt less
+```
+
+Compile a specific theme&#8217;s styles:
+
+```
+grunt less:<theme>
+```
+
+Watch for changes:
+
+```
+grunt watch
 ```

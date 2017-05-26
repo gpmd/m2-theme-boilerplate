@@ -1,17 +1,24 @@
 /* global module */
 
-module.exports = {
-  icons: {
+'use strict';
+
+var defaultSvgmin = require('../../../../../../dev/tools/grunt/configs/svgmin');
+var _ = require('underscore');
+
+var customSvgmin = {
+  themeIcons: {
     files: [
       {
         expand: true,
         flatten: false,
-        cwd: 'web/images/icons/src',
+        cwd: '<%= path.themeDir %>/web/images/icons/src',
         src: [
-          '**/*.svg',
+          '**/*.svg'
         ],
-        dest: 'web/images/icons/minified',
-      },
-    ],
-  },
+        dest: '<%= path.themeDir %>/web/images/icons/minified'
+      }
+    ]
+  }
 };
+
+module.exports = _.extend(defaultSvgmin, customSvgmin);
