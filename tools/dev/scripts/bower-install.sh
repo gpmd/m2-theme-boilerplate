@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Import variables
 source ./tools/dev/scripts/vars.sh
 
 read -p "--- Update bower components? [y/N] " answer
@@ -13,7 +14,7 @@ then
     cd ../../../
 
     # Custom theme
-    cd app/design/frontend/$theme/Default
+    cd app/design/frontend/$custom_theme_name/Default
     (bower install && bower prune)
     cd ../../../../../
 

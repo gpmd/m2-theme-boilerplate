@@ -9,6 +9,6 @@ check_run() {
     echo "$changed_files" | grep --quiet "$1" && eval "$2"
 }
 
-tools/dev/build.sh
+tools/dev/build.full.sh
 
 exec <&-

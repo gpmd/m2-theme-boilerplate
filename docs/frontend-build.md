@@ -18,10 +18,16 @@ chmod +x dev-setup.sh
 If you have already run the `dev-setup.sh` script the build will be automatically triggered when you `git pull`. If you want to trigger the build manually please run:
 
 ```
-./tools/dev/build.sh
+./tools/dev/build.full.sh
 ```
 
-You can also run each step separately by using the shell scripts in `.tools/dev/scripts/`. 
+You can also run any of the build steps separately by using the shell scripts in `.tools/dev/scripts/`. 
+
+### Running theme specific build tasks
+
+```
+./tools/dev/build.<theme>.sh
+```
 
 ## Grunt tasks
 
