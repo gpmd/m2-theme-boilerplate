@@ -1,5 +1,7 @@
 # Magento 2 Theme Boilerplate
 
+> A child theme boilerplate for our M2base core theme
+
 **Please Note:** This is set up to work with our M2base theme as a parent, so probably isn&#8217;t much use to anyone else.
 
 ## Usage
@@ -23,71 +25,6 @@ To mitigate Magento overwriting the default Grunt `themes.js` config file each t
 }
 ```
 
-## Dev build tools
+## Frontend Build
 
-Also included are a couple of scripts to help automate some of the more common front end development tasks.
-
-Simply run the initial setup script and you will be prompted with a number of options. Then, each time you `git pull` or `git merge` you will be automatically presented with the same prompts. You can also trigger the build script manually.
-
-**Intial setup:**
-```
-chmod +x dev-setup.sh
-./dev-setup.sh
-```
-
-**Manually run the build script:**
-```
-./tools/dev/build.sh
-```
-
-## Grunt tasks
-
-### Icons
-
-```
-grunt --gruntfile=Gruntfile.mytheme.js icons
-```
-
-### Pattern library
-
-```
-grunt --gruntfile=Gruntfile.mytheme.js patternlib
-```
-
-The generated pattern library can be found at the following URL (assuming you have set `pub/` as your webroot):
-
-```
-static/frontend/GPMD/MyTheme/en_GB/patternlib/mytheme/index.html
-```
-
-### Default Magento Grunt tasks
-
-Refresh all the themes (cleans, generates symlinks and compiles styles):
-
-```
-grunt refresh
-```
-
-Clean styles:
-
-```
-grunt clean
-```
-
-Compile all styles:
-
-```
-grunt less
-```
-
-Compile a specific theme&#8217;s styles:
-
-```
-grunt less:<theme>
-```
-
-Watch for changes:
-
-```
-grunt watch
-```
+See the included `docs/frontend-build.md` doc.
