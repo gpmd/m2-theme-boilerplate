@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en-GB">
-<!--(bake includes/head.html project="My Theme")-->
+<!--(bake includes/head.html project="{{project}}")-->
 <body id="top" class="patternlib">
-<!--(bake includes/header.html project="My Theme" title="Style Guide" page="components")-->
+<!--(bake includes/header.html project="{{project}}" title="Style Guide" page="components")-->
 
 <div class="container u-max-width--l">
     <section class="section">
@@ -14,6 +14,6 @@
 
 <!--(bake includes/section.html _foreach="section:components" dir="components")-->
 
-<!--(bake includes/footer.html project="My Theme")-->
+<!--(bake includes/footer.html project="{{project}}")-->
 </body>
 </html>
