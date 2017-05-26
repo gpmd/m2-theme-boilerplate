@@ -6,6 +6,11 @@ var defaultClean = require('../../../../../../dev/tools/grunt/configs/clean');
 var _ = require('underscore');
 
 var customClean = {
+  themeStyles: [
+    '<%= path.themeStyles %>',
+    '<%= path.themeViewPreprocessedStyles %>',
+    '<%= path.themeViewPreprocessedSource %>'
+  ],
   themePatternlib: [
     '<%= path.patternlibPubDir %>'
   ],

@@ -31,6 +31,16 @@ then
     echo -e "\xe2\x9c\x94 Done"
 fi
 
+read -p "--- Speedy styles refresh? [y/N] " answer
+if [[ $answer = y ]] ;
+then
+    echo "--- Refreshing styles..."
+
+    (grunt --gruntfile=Gruntfile.$custom_theme_slug.js clean:themeStyles)
+
+    echo -e "\xe2\x9c\x94 Done"
+fi
+
 read -p "--- Clean theme static files? [y/N] " answer
 if [[ $answer = y ]] ;
 then
