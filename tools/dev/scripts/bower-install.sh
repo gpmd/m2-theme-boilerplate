@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ./tools/dev/scripts/vars.sh
+
 read -p "--- Update bower components? [y/N] " answer
 if [[ $answer = y ]] ;
 then
@@ -10,8 +12,8 @@ then
     (bower install && bower prune)
     cd ../../../
 
-    # MyTheme theme
-    cd app/design/frontend/MyTheme/Default
+    # Custom theme
+    cd app/design/frontend/$theme/Default
     (bower install && bower prune)
     cd ../../../../../
 
