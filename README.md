@@ -8,7 +8,7 @@
 
 1. Clone/download the repo and merge the files into your Magento 2 site, following the same directory structure
 2. Change all occurrences in the folders names and files of `MyTheme`, `myTheme` and `mytheme` to the name of your new theme (you could do a case sensitive find & replace)
-3. Add a new theme config block to `tools/dev/themes.js`
+3. Register the theme in `tools/dev/themes.js`
 
 ### themes.js
 

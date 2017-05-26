@@ -1,10 +1,12 @@
 # Frontend build
 
+**Please Note:** The frontend build scripts and Grunt workflow are only used for local development purposes. When deploying use `php bin/magento setup:static-content:deploy`.
+
 ## Build scripts
 
 ### Initial setup
 
-Run the setup script and you will be prompted with a number of options.
+Run the setup script and you will be prompted with a number of options, to which you can reply `y` or `n`.
 
 ```
 chmod +x dev-setup.sh
@@ -45,16 +47,22 @@ static/frontend/GPMD/<Theme>/en_GB/patternlib/<theme>/index.html
 
 ### Default Magento Grunt tasks
 
-Refresh all the themes (cleans, generates symlinks and compiles styles):
+Refresh all the themes:
 
 ```
 grunt refresh
 ```
 
-Clean styles:
+Clean all styles:
 
 ```
 grunt clean
+```
+
+Clean theme specific styles:
+
+```
+grunt clean:<theme>
 ```
 
 Compile all styles:
@@ -63,7 +71,7 @@ Compile all styles:
 grunt less
 ```
 
-Compile a specific theme&#8217;s styles:
+Compile theme specific styles:
 
 ```
 grunt less:<theme>

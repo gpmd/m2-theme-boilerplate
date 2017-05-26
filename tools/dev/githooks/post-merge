@@ -12,5 +12,3 @@ check_run() {
 tools/dev/build.sh
 
 exec <&-
-
-echo "--- Finished"
