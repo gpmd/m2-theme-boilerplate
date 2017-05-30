@@ -31,15 +31,15 @@ then
     echo -e "\xe2\x9c\x94 Done"
 fi
 
-#read -p "--- Speedy styles refresh? [y/N] " answer
-#if [[ $answer = y ]] ;
-#then
-#    echo "--- Refreshing styles..."
-#
-#    (grunt --gruntfile=Gruntfile.$m2base_theme_slug.js clean:themeStyles)
-#
-#    echo -e "\xe2\x9c\x94 Done"
-#fi
+read -p "--- Speedy styles refresh? [y/N] " answer
+if [[ $answer = y ]] ;
+then
+    echo "--- Refreshing styles..."
+
+    (grunt --gruntfile=Gruntfile.$m2base_theme_slug.js clean:themeStyles)
+
+    echo -e "\xe2\x9c\x94 Done"
+fi
 
 read -p "--- Clean theme static files (grunt clean:$m2base_theme_slug)? [y/N] " answer
 if [[ $answer = y ]] ;
