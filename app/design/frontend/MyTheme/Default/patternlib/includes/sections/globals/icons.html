@@ -127,19 +127,6 @@
     </section>
 
     <section class="section section--{{section.key}}">
-        <h3>Colour Variants</h3>
-
-        <p>Icons are available in three colours, black, grey, and white. Colours are denoted by adding a keyword to the end of the CSS class name, e.g. <code>-black</code>:</p>
-
-        <p><strong>Example markup:</strong></p>
-        <pre><code class="language-html">&#x3C;div class=&#x22;icon__burger--s-black&#x22; data-grunticon-embed&#x3E;&#x3C;/div&#x3E;</code></pre>
-
-        <div class="o-grid o-grid--has-gutter">
-            <!--(bake icon.html _foreach="icon:icons.color-variants")-->
-        </div>
-    </section>
-
-    <section class="section section--{{section.key}}">
         <h3>Size Variants</h3>
 
         <p>Some icons are available in various sizes, usually large and small. Sizes are denoted by adding a size modifier after the icon identifier in the CSS class name, e.g. <code>--l</code>:</p>
@@ -149,6 +136,19 @@
 
         <div class="o-grid o-grid--has-gutter">
             <!--(bake icon.html _foreach="icon:icons.size-variants")-->
+        </div>
+    </section>
+
+    <section class="section section--{{section.key}}">
+        <h3>Colour Variants</h3>
+
+        <p>Icons are available in three colours, black, grey, and white. Colours are denoted by adding a keyword to the end of the CSS class name, e.g. <code>-black</code>:</p>
+
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;div class=&#x22;icon__burger--s-black&#x22; data-grunticon-embed&#x3E;&#x3C;/div&#x3E;</code></pre>
+
+        <div class="o-grid o-grid--has-gutter">
+            <!--(bake icon.html _foreach="icon:icons.color-variants")-->
         </div>
     </section>
 

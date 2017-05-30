@@ -192,10 +192,6 @@
         "color": "black"
       },
       {
-        "name": "user--s",
-        "color": "black"
-      },
-      {
         "name": "globe--s",
         "color": "black"
       },
@@ -407,6 +403,9 @@
       {
         "name": "burger--s",
         "color": "black"
+      }, {
+        "name": "burger--s",
+        "color": "grey"
       }, {
         "name": "burger--s",
         "color": "white"
