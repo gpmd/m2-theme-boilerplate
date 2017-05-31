@@ -4,6 +4,8 @@
     </section>
 
     <section class="section">
+        <h3>Defaults</h3>
+
         <h1>Heading H1<br>
             <span class="u-font-weight--normal">Heading H1</span></h1>
         <h2>Heading H2<br>
@@ -16,18 +18,25 @@
             <span class="u-font-weight--normal">Heading H5</span></h5>
         <h6>Heading H6<br>
             <span class="u-font-weight--normal">Heading H6</span></h6>
-    </section>
-
-    <section class="section">
-        <p>Headings can also be styled to look like other headings by using one of the classes <code>h1</code> through <code>h6</code>. For example:</p>
-
-        <h1 class="h3">I am a H1 Heading that looks like a H3 Heading</h1>
 
         <p><strong>Example markup:</strong></p>
-        <pre><code class="language-html">&#x3C;h1 class=&#x22;h3&#x22;&#x3E;I am a H1 Heading that looks like a H3 Heading&#x3C;/h1&#x3E;</code></pre>
+        <pre><code class="language-html">&#x3C;h1&#x3E;Heading H1&#x3C;br&#x3E;&#x3C;span class=&#x22;u-font-weight--normal&#x22;&#x3E;Heading H1&#x3C;/span&#x3E;&#x3C;/h1&#x3E;</code></pre>
     </section>
 
     <section class="section">
+        <h3>Faking It...</h3>
+
+        <p>Headings can also be styled to look like other headings by using one of the classes <code>h1</code> through <code>h6</code>. For example:</p>
+
+        <h1 class="h4">I am a H1 Heading that looks like a H4 Heading</h1>
+
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;h1 class=&#x22;h4&#x22;&#x3E;I am a H1 Heading that looks like a H4 Heading&#x3C;/h1&#x3E;</code></pre>
+    </section>
+
+    <section class="section">
+        <h3>Decoration</h3>
+
         <p>Headings can also be &#8216;decorated&#8217; by adding the modifier class: <code>is-decorated</code>. By default the decoration is dark, but you can explicitly choose whether it is dark or light by using <code>is-decorated--dark</code> or <code>is-decorated--light</code></p>
 
         <h3 class="is-decorated u-text-align--center">This Is A Decorated Heading<br><span class="u-font-weight--normal">And Subheading</span></h3>

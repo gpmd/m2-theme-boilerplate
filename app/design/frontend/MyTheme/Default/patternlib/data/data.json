@@ -42,14 +42,8 @@
       "key": "lists",
       "title": "Lists"
     }, {
-      "key": "tables",
-      "title": "Tables"
-    }, {
       "key": "forms",
       "title": "Forms"
-    }, {
-      "key": "boxmodel",
-      "title": "Padding & Margins"
     }, {
       "key": "icons",
       "title": "Icons"
@@ -59,6 +53,9 @@
     {
       "key": "typography",
       "title": "Typography"
+    }, {
+      "key": "boxmodel",
+      "title": "Padding & Margins"
     }
   ],
   "objects": [
@@ -89,6 +86,9 @@
     }, {
       "key": "cards",
       "title": "Cards"
+    }, {
+      "key": "tables",
+      "title": "Tables"
     }, {
       "key": "notifications",
       "title": "Notifications"
