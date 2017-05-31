@@ -6,34 +6,56 @@
     <section class="section">
         <h3>Inline</h3>
 
-        <img class="u-margin-btm--m" src="/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg">
+        <p>A standard, &#8216;inline&#8217; image.</p>
+
+        <img class="u-margin-btm--s" src="/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg">
+
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;img src=&#x22;image.jpg&#x22;&#x3E;</code></pre>
     </section>
 
     <section class="section">
         <h3>Outset</h3>
 
-        <p>The outset utility can be used to outset an image to either the left, right or both sides of its container.</p>
-    </section>
+        <p>The outset utility can be used to outset an image by 200px to either the left, right or both sides of its container.</p>
 
-    <section class="section">
         <div class="o-outset--left u-margin-btm--s">
             <img src="/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg">
         </div>
-        <pre><code class="language-css">o-outset--left</code></pre>
-    </section>
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-outset--left&#x22;&#x3E;
+    &#x3C;img src=&#x22;image.jpg&#x22;&#x3E;
+&#x3C;/div&#x3E;</code></pre>
 
-    <section class="section">
         <div class="o-outset--right u-margin-btm--s">
             <img src="/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg">
         </div>
-        <pre><code class="language-css">o-outset--right</code></pre>
-    </section>
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-outset--right&#x22;&#x3E;
+    &#x3C;img src=&#x22;image.jpg&#x22;&#x3E;
+&#x3C;/div&#x3E;</code></pre>
 
-    <section class="section">
         <div class="o-outset--both u-margin-btm--s">
             <img src="/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg">
         </div>
-        <pre><code class="language-css">o-outset--both</code></pre>
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-outset--both&#x22;&#x3E;
+    &#x3C;img src=&#x22;image.jpg&#x22;&#x3E;
+&#x3C;/div&#x3E;</code></pre>
+    </section>
+
+    <section class="section">
+        <h3>Breakout</h3>
+
+        <p>Similar to <code>o-outset--both</code>, <code>o-breakout</code> breaks an image out of its container, but this time it stretches to the full width of the viewport.</p>
+
+        <div class="o-breakout u-margin-btm--s">
+            <img src="/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg">
+        </div>
+        <p><strong>Example markup:</strong></p>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-breakout&#x22;&#x3E;
+    &#x3C;img src=&#x22;image.jpg&#x22;&#x3E;
+&#x3C;/div&#x3E;</code></pre>
     </section>
 
     <section class="section">
@@ -45,7 +67,12 @@
         <p>Define the image source inline in the style attribute of the element. The element needs to be given some dimensions, so this object works well with the <code>o-ratio-embed object</code>.</p>
 
         <p><strong>Example markup:</strong></p>
-        <pre><code class="language-html">&#x3C;div class=&#x22;o-img-cover&#x22; style=&#x22;background-image: url(/static/frontend/{{namespace}}/Default/en_GB/images/patternlib/patternlib_01.jpg);&#x22;&#x3E;&#x3C;/div&#x3E;</code></pre>
+        <pre><code class="language-html">&#x3C;div class=&#x22;o-ratio-embed&#x22;&#x3E;
+    &#x3C;div class=&#x22;o-ratio-embed__ratio o-ratio-embed--2by1&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;o-ratio-embed__content&#x22;&#x3E;
+        &#x3C;div class=&#x22;o-img-cover&#x22; style=&#x22;background-image: url(image.jpg);&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;</code></pre>
     </section>
 
     <section class="section">
