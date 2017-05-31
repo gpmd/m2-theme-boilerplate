@@ -4,7 +4,7 @@
 
 ## Register theme
 
-First register the theme in `./tools/dev/themes.js`.
+First register the theme in `./dev/themes.js`.
 
 ```
 <theme>: {
@@ -24,10 +24,10 @@ To mitigate Magento overwriting the default Grunt `themes.js` config file, add t
 ```
 "scripts": {
     "post-install-cmd": [
-        "cp tools/dev/themes.js dev/tools/grunt/configs/themes.js"
+        "cp dev/themes.js dev/tools/grunt/configs/themes.js"
     ],
     "post-update-cmd": [
-        "cp tools/dev/themes.js dev/tools/grunt/configs/themes.js"
+        "cp dev/themes.js dev/tools/grunt/configs/themes.js"
     ]
 }
 ```
@@ -48,17 +48,17 @@ chmod +x dev-setup.sh
 If you have already run the `dev-setup.sh` script the build will be automatically triggered when you `git pull`. If you want to trigger the build manually please run:
 
 ```
-./tools/dev/build.full.sh
+./dev/build.full.sh
 ```
 
-You can also run any of the build steps separately by using the shell scripts in `.tools/dev/scripts/`. 
+You can also run any of the build steps separately by using the shell scripts in `.dev/scripts/`. 
 
 ### Running theme specific build tasks
 
 Each theme has its own set of build tasks. You can trigger them using the following command:
 
 ```
-./tools/dev/build.<theme>.sh
+./dev/build.<theme>.sh
 ```
 
 ## Grunt tasks

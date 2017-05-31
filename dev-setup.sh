@@ -1,7 +1,7 @@
 #!/bin/bash
 
-chmod +x tools/dev/*
-chmod +x tools/dev/githooks/*
+chmod +x dev/*
+chmod +x dev/githooks/*
 
-(./tools/dev/githooks.sh)
-(tools/dev/build.full.sh)
+(dev/githooks.sh)
+(dev/build.full.sh)

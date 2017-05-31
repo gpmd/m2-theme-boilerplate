@@ -1,6 +1,6 @@
 #!/bin/bash
 
-(./tools/dev/check-directory.sh)
+(./dev/check-directory.sh)
 
 # Check if post-merge symlink exists and if not, create it
 file=".git/hooks/post-merge"
@@ -10,7 +10,7 @@ then
 else
     echo "--- Creating post-merge git hook symlink..."
 
-    (cd .git/hooks; ln -s ../../tools/dev/githooks/post-merge post-merge)
+    (cd .git/hooks; ln -s ../../dev/githooks/post-merge post-merge)
 
     echo -e "\xe2\x9c\x94 Done"
 fi

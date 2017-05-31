@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Import variables
-source ./tools/dev/scripts/vars.sh
+source ./dev/scripts/vars.sh
 
 read -p "--- Update bower components? [y/N] " answer
 if [[ $answer = y ]] ;
