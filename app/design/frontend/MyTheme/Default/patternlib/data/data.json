@@ -77,6 +77,12 @@
       "key": "buttons",
       "title": "Buttons"
     }, {
+      "key": "slideshow",
+      "title": "Slideshow"
+    }, {
+      "key": "cards",
+      "title": "Cards"
+    }, {
       "key": "notifications",
       "title": "Notifications"
     }
