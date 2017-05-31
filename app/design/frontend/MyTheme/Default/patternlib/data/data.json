@@ -5,8 +5,10 @@
     {
       "key": "index",
       "title": "Globals"
-    },
-    {
+    }, {
+      "key": "utilities",
+      "title": "Utilities"
+    }, {
       "key": "objects",
       "title": "Objects"
     }, {
@@ -18,13 +20,12 @@
     {
       "key": "logo",
       "title": "Logo"
-    },
-    {
+    }, {
       "key": "colours",
       "title": "Colour Palette"
     }, {
-      "key": "typography",
-      "title": "Typography"
+      "key": "fonts",
+      "title": "Fonts"
     }, {
       "key": "headings",
       "title": "Headings"
@@ -52,6 +53,12 @@
     }, {
       "key": "icons",
       "title": "Icons"
+    }
+  ],
+  "utilities": [
+    {
+      "key": "typography",
+      "title": "Typography"
     }
   ],
   "objects": [
@@ -188,204 +195,154 @@
       {
         "name": "burger--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "search--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "user--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "globe--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "bag--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "plus--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "plus--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "minus--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "minus--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "tick--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "tick--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "cross--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "cross--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-up--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-right--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-down--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-left--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-up--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-right--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-down--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "arrow-left--l",
         "color": "black"
-      },
-      {
+      }, {
         "name": "refresh--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "pencil--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "heart--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "share--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "star--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "zoom-in--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "bin--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "lock-closed--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "instagram--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "twitter--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "facebook--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "email--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "youtube--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "pinterest--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "success--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "info--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "error--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "help--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "iphone",
         "color": "black"
-      },
-      {
+      }, {
         "name": "ipad",
         "color": "black"
-      },
-      {
+      }, {
         "name": "android",
         "color": "black"
-      },
-      {
+      }, {
         "name": "apple-watch",
         "color": "black"
-      },
-      {
+      }, {
         "name": "htc",
         "color": "black"
-      },
-      {
+      }, {
         "name": "nexus",
         "color": "black"
-      },
-      {
+      }, {
         "name": "lumia",
         "color": "black"
-      },
-      {
+      }, {
         "name": "visa--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "mastercard--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "maestro--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "amex--s",
         "color": "black"
-      },
-      {
+      }, {
         "name": "paypal--s",
         "color": "black"
       }
