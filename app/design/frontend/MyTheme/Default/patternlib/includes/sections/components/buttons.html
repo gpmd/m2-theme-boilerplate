@@ -6,30 +6,72 @@
     <section class="section">
         <h3>Flavours</h3>
 
-        <p>Buttons come in 3 flavours, <code>button-primary</code>, <code>button-secondary</code>, and <code>button-white</code>. For inverted versions add <code>--inverted</code> to the end of the class name, e.g. <code>button-primary--inverted</code>.</p>
+        <p>Buttons come in four flavours, <code>button-primary</code>, <code>button-secondary</code>, <code>button-tertiary</code> and <code>button-white</code>. For inverted versions add <code>--inverted</code> to the end of the class name, e.g. <code>button-primary--inverted</code>.</p>
 
-        <div class="u-padding-all--s">
-            <p><a class="button-primary" href="#">Primary Button</a></p>
-            <pre class="u-margin-btm--none"><code class="language-css">button-primary</code></pre>
-        </div>
+        <div class="o-grid o-grid--has-gutter">
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><a class="button-primary" href="#">Primary Button</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-primary</code></pre>
+                </div>
+            </div>
 
-        <div class="u-padding-all--s">
-            <p><a class="button-secondary" href="#">Secondary Button</a></p>
-            <pre class="u-margin-btm--none"><code class="language-css">button-secondary</code></pre>
-        </div>
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><a class="button-primary--inverted" href="#">Primary Button (Inverted)</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-primary--inverted</code></pre>
+                </div>
+            </div>
 
-        <div class="u-padding-all--s u-margin-btm--s u-bg-color--medium-grey">
-            <p><a class="button-white" href="#">White Button</a></p>
-            <pre class="u-margin-btm--none"><code class="language-css">button-white</code></pre>
-        </div>
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><a class="button-secondary" href="#">Secondary Button</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-secondary</code></pre>
+                </div>
+            </div>
 
-        <div class="u-padding-all--s u-bg-color--medium-grey">
-            <p><a class="button-white--inverted" href="#">White Button (Inverted)</a></p>
-            <pre class="u-margin-btm--none"><code class="language-css">button-white--inverted</code></pre>
-        </div>
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><a class="button-secondary--inverted" href="#">Secondary Button (Inverted)</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-secondary--inverted</code></pre>
+                </div>
+            </div>
 
-        <div class="u-padding-all--s">
-            <p><input class="button" type="submit" value="Disabled Button" disabled /></p>
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><a class="button-tertiary" href="#">Tertiary Button</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-tertiary</code></pre>
+                </div>
+            </div>
+
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><a class="button-tertiary--inverted" href="#">Tertiary Button (Inverted)</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-tertiary--inverted</code></pre>
+                </div>
+            </div>
+
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s u-bg-color--medium-grey">
+                    <p><a class="button-white" href="#">White Button</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-white</code></pre>
+                </div>
+            </div>
+
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s u-bg-color--medium-grey">
+                    <p><a class="button-white--inverted" href="#">White Button (Inverted)</a></p>
+                    <pre class="u-margin-btm--none"><code class="language-css">button-white--inverted</code></pre>
+                </div>
+            </div>
+
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m">
+                <div class="u-padding-all--s">
+                    <p><input class="button" type="submit" value="Disabled Button" disabled /></p>
+                </div>
+            </div>
+
+            <div class="o-grid__cell o-unit-1of1 o-unit-1of2--m"></div>
         </div>
     </section>
 
@@ -55,14 +97,14 @@
     </section>
 
     <section class="section">
-        <h3>Minimum or Maximum Width</h3>
+        <h3>Minimum and Maximum Width</h3>
 
-        <p>For visual consistency you can also set a minimum or maximum width on buttons using <code>button--set-min-width</code> or <code>button--set-max-width</code>.</p>
+        <p>By default buttons grow to fit their text, but for visual consistency you can also set a minimum or maximum width using <code>button--set-min-width</code> or <code>button--set-max-width</code>.</p>
 
         <p><a class="button-primary button--set-min-width" href="#">Button</a></p>
         <pre><code class="language-css">button--set-min-width</code></pre>
 
-        <p><a class="button-primary button--set-max-width" href="#">Button</a></p>
+        <p><a class="button-primary button--set-max-width" href="#">Button Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing</a></p>
         <pre><code class="language-css">button--set-max-width</code></pre>
     </section>
 </div>
