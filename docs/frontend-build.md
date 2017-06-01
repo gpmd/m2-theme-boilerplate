@@ -4,7 +4,7 @@
 
 ## Register theme
 
-First register the theme in `./dev/themes.js`.
+Make sure the theme is registered in `./dev/tools/grunt/configs/themes.js`.
 
 ```
 <theme>: {
@@ -16,19 +16,6 @@ First register the theme in `./dev/themes.js`.
         'css/styles-l'
     ],
     dsl: 'less'
-}
-```
-
-To mitigate Magento overwriting the default Grunt `themes.js` config file, add the following `scripts` node to the project&#8217;s `composer.json`. This will copy our own `themes.js` file into place each time `composer install` or `composer update` is run:
-
-```
-"scripts": {
-    "post-install-cmd": [
-        "cp dev/themes.js dev/tools/grunt/configs/themes.js"
-    ],
-    "post-update-cmd": [
-        "cp dev/themes.js dev/tools/grunt/configs/themes.js"
-    ]
 }
 ```
 
