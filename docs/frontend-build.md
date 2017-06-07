@@ -4,20 +4,22 @@
 
 ## Register theme
 
-Make sure the theme is registered in `./dev/tools/grunt/configs/themes.js`.
+Make sure the theme is registered in `./dev/tools/grunt/configs/themes-custom.js`.
+
+Then add the following to your `composer.json` file:
 
 ```
-<theme>: {
-    area: 'frontend',
-    name: '<Theme>/Default',
-    locale: 'en_GB',
-    files: [
-        'css/styles-m',
-        'css/styles-l'
+"scripts": {
+    "post-install-cmd": [
+        "cp dev/tools/grunt/configs/themes-custom.js dev/tools/grunt/configs/themes.js"
     ],
-    dsl: 'less'
+    "post-update-cmd": [
+        "cp dev/tools/grunt/configs/themes-custom.js dev/tools/grunt/configs/themes.js"
+    ]
 }
 ```
+
+This copies the custom themes file into the correct place each time a `composer install` or `composer update` is run.
 
 ## Build scripts
 
